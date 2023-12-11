@@ -8,7 +8,7 @@ from drf_yasg.utils import swagger_auto_schema
 from rest_framework_simplejwt.tokens import AccessToken,RefreshToken
 from rest_framework.permissions import IsAuthenticated
 # Create your views here.
-
+#
 class Register(APIView):
     @swagger_auto_schema(request_body=UserSRL)
     def post(self,request):
